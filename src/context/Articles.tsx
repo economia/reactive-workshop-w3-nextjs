@@ -90,7 +90,7 @@ class ArticlesContextProvider extends PureComponent<{}, IState> {
   fetchArticles = (): Article[] => {
     try {
       const articles = window.localStorage.getItem('articles')
-      return articles ? JSON.parse(articles) : defaultContextValue
+      return articles ? JSON.parse(articles) : defaultContextValue.articles
     } catch (error) {
       console.log('Error while getting articles from local storage', error)
       return []
