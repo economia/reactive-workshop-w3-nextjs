@@ -3,7 +3,7 @@ import { Col, Container, Jumbotron, Row } from 'reactstrap'
 import moment from 'moment'
 import { LONG_DATE_FORMAT } from '../../../src/constants'
 
-const Page = ({ article: { title, author, created, updated, content } }) => (
+const Page = ({ article: { title = '', author = '', created = '', updated = '', content = '' } = {} }) => (
   <>
     <Row>
       <Col>

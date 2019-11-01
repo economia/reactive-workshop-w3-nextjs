@@ -13,7 +13,7 @@ const Page = ({ articles = [] }) => (
     <Row style={{ margin: '30px' }}>
         {
           articles.map((article: Article) => (
-            <Preview article={article} key={article.id}/>
+            <Preview/>
           ))
         }
     </Row>
