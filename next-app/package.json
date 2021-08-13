@@ -12,7 +12,7 @@
     "@types/react": "^16.9.11",
     "@types/reactstrap": "^8.0.6",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "9.1.2",
+    "next": "11.1.0",
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "reactstrap": "^8.1.1",
